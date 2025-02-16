@@ -1,0 +1,188 @@
+\documentclass{beamer}
+\usepackage[utf8]{inputenc}
+\usepackage{amssymb}
+\usepackage{amsmath}
+\usepackage[ngerman]{babel}
+\usepackage{geometry}
+\usepackage{cases}
+\usepackage{array,colortbl}
+\usepackage{hyperref,wasysym}
+
+\mode<presentation>{
+\usetheme{Rochester}
+%\usecolortheme{dove}
+}
+
+\title{Fragen}
+\author{Der Computer}
+\date{}
+
+\setbeamertemplate{footline}[page number]
+\setbeamertemplate{navigation symbols}{}
+
+\begin{document}
+\begin{frame}
+\titlepage
+\end{frame}\begin{frame}{Maschinengenauigkeit}
+Welche der folgenden Aussagen über die Maschinengenauigkeit $ \epsilon_{mach}$ sind wahr?
+\begin{itemize}\item[$\Square$]Die Maschinengenauigkeit hängt von der Art der Normalisierung ab.\item[$\Square$]Die Maschinengenauigkeit kann negative Werte annehmen.\item[$\Square$]Die Maschinengenauigkeit kann den Wert 0 annehmen.\item[$\Square$]Die Maschinengenauigkeit hängt von der oberen Schranke $ U$ des Exponentan ab.\end{itemize}
+\end{frame}
+\begin{frame}{Maschinengenauigkeit (Lösung)}
+Welche der folgenden Aussagen über die Maschinengenauigkeit $ \epsilon_{mach}$ sind wahr?
+\begin{itemize}\item[$\Square$]Die Maschinengenauigkeit hängt von der Art der Normalisierung ab.\item[$\Square$]Die Maschinengenauigkeit kann negative Werte annehmen.\item[$\Square$]Die Maschinengenauigkeit kann den Wert 0 annehmen.\item[$\Square$]Die Maschinengenauigkeit hängt von der oberen Schranke $ U$ des Exponentan ab.\end{itemize}
+\end{frame}
+
+\begin{frame}{Absoluter Fehler}
+Das exakte Ergebnis einer Rechnung lautet $ 4$. Das approximierte Ergebnis lautet $ 7$. Berechne den absoluten Fehler!
+\end{frame}
+\begin{frame}{Absoluter Fehler (Lösung)}
+Das exakte Ergebnis einer Rechnung lautet $ 4$. Das approximierte Ergebnis lautet $ 7$. Berechne den absoluten Fehler!
+$$ 3$$
+\end{frame}
+
+\begin{frame}{Simpsonregel}
+Gegeben seien die Funktion $$ f(x) = -2-3x+3x^2+4x^3$$ auf dem Intervall [-1, 3]. Approximiere das Integral mittels der Simpsonregel!
+\end{frame}
+\begin{frame}{Simpsonregel (Lösung)}
+Gegeben seien die Funktion $$ f(x) = -2-3x+3x^2+4x^3$$ auf dem Intervall [-1, 3]. Approximiere das Integral mittels der Simpsonregel!
+$$ 88$$
+\end{frame}
+
+\begin{frame}{$1$-Norm}
+Sei $$ A := \begin{pmatrix}1&1&5&2\\3&5&5&-4\\-3&0&-5&-5\\2&-1&4&1\end{pmatrix}.$$ Berechne $\|A\|_1$!
+\end{frame}
+\begin{frame}{$1$-Norm (Lösung)}
+Sei $$ A := \begin{pmatrix}1&1&5&2\\3&5&5&-4\\-3&0&-5&-5\\2&-1&4&1\end{pmatrix}.$$ Berechne $\|A\|_1$!
+$$ 19$$
+\end{frame}
+
+\begin{frame}{Absoluter Fehler}
+Das exakte Ergebnis einer Rechnung lautet $ 8$. Das approximierte Ergebnis lautet $ 9$. Berechne den absoluten Fehler!
+\end{frame}
+\begin{frame}{Absoluter Fehler (Lösung)}
+Das exakte Ergebnis einer Rechnung lautet $ 8$. Das approximierte Ergebnis lautet $ 9$. Berechne den absoluten Fehler!
+$$ 1$$
+\end{frame}
+
+\begin{frame}{$1$-Norm}
+Sei $$ A := \begin{pmatrix}4&-5&3&-1\\-2&-4&-3&-1\\-1&1&0&-5\\-4&0&-1&-5\end{pmatrix}.$$ Berechne $\|A\|_1$!
+\end{frame}
+\begin{frame}{$1$-Norm (Lösung)}
+Sei $$ A := \begin{pmatrix}4&-5&3&-1\\-2&-4&-3&-1\\-1&1&0&-5\\-4&0&-1&-5\end{pmatrix}.$$ Berechne $\|A\|_1$!
+$$ 12$$
+\end{frame}
+
+\begin{frame}{$1$-Norm}
+Sei $$ A := \begin{pmatrix}-1&2&-3&4\\-3&1&-4&-3\\3&-1&2&-2\\-5&-1&4&5\end{pmatrix}.$$ Berechne $\|A\|_1$!
+\end{frame}
+\begin{frame}{$1$-Norm (Lösung)}
+Sei $$ A := \begin{pmatrix}-1&2&-3&4\\-3&1&-4&-3\\3&-1&2&-2\\-5&-1&4&5\end{pmatrix}.$$ Berechne $\|A\|_1$!
+$$ 14$$
+\end{frame}
+
+\begin{frame}{Relativer Fehler}
+Das exakte Ergebnis einer Rechnung lautet $ -4$. Das approximierte Ergebnis lautet $ 7$. Berechne den relativen Fehler!
+\end{frame}
+\begin{frame}{Relativer Fehler (Lösung)}
+Das exakte Ergebnis einer Rechnung lautet $ -4$. Das approximierte Ergebnis lautet $ 7$. Berechne den relativen Fehler!
+$$ 2.75$$
+\end{frame}
+
+\begin{frame}{Mittelpunktregel}
+Gegeben seien die Funktion $$ f(x) = 2-3x-1x^2-4x^3$$ auf dem Intervall [-3, 1]. Approximiere das Integral mittels der Mittelpunktregel!
+\end{frame}
+\begin{frame}{Mittelpunktregel (Lösung)}
+Gegeben seien die Funktion $$ f(x) = 2-3x-1x^2-4x^3$$ auf dem Intervall [-3, 1]. Approximiere das Integral mittels der Mittelpunktregel!
+$$ 32$$
+\end{frame}
+
+\begin{frame}{Absoluter Fehler}
+Das exakte Ergebnis einer Rechnung lautet $ 1$. Das approximierte Ergebnis lautet $ -8$. Berechne den absoluten Fehler!
+\end{frame}
+\begin{frame}{Absoluter Fehler (Lösung)}
+Das exakte Ergebnis einer Rechnung lautet $ 1$. Das approximierte Ergebnis lautet $ -8$. Berechne den absoluten Fehler!
+$$ 9$$
+\end{frame}
+
+\begin{frame}{Fixpunktiteration}
+Gegeben seien die Funktion $$ f(x) = 5-5x+2x^2-3x^3$$ und der Startpunkt $ x_0 = 1$. Berechne den erste Iterationsschritt der Fixpunktiteration!
+\end{frame}
+\begin{frame}{Fixpunktiteration (Lösung)}
+Gegeben seien die Funktion $$ f(x) = 5-5x+2x^2-3x^3$$ und der Startpunkt $ x_0 = 1$. Berechne den erste Iterationsschritt der Fixpunktiteration!
+$$ -1$$
+\end{frame}
+
+\begin{frame}{Absoluter Fehler}
+Das exakte Ergebnis einer Rechnung lautet $ 5$. Das approximierte Ergebnis lautet $ 2$. Berechne den absoluten Fehler!
+\end{frame}
+\begin{frame}{Absoluter Fehler (Lösung)}
+Das exakte Ergebnis einer Rechnung lautet $ 5$. Das approximierte Ergebnis lautet $ 2$. Berechne den absoluten Fehler!
+$$ 3$$
+\end{frame}
+
+\begin{frame}{Fixpunktiteration}
+Gegeben seien die Funktion $$ f(x) = -4+1x^2-4x^3$$ und der Startpunkt $ x_0 = -3$. Berechne den erste Iterationsschritt der Fixpunktiteration!
+\end{frame}
+\begin{frame}{Fixpunktiteration (Lösung)}
+Gegeben seien die Funktion $$ f(x) = -4+1x^2-4x^3$$ und der Startpunkt $ x_0 = -3$. Berechne den erste Iterationsschritt der Fixpunktiteration!
+$$ 113$$
+\end{frame}
+
+\begin{frame}{Relativer Fehler}
+Das exakte Ergebnis einer Rechnung lautet $ -8$. Das approximierte Ergebnis lautet $ 2$. Berechne den relativen Fehler!
+\end{frame}
+\begin{frame}{Relativer Fehler (Lösung)}
+Das exakte Ergebnis einer Rechnung lautet $ -8$. Das approximierte Ergebnis lautet $ 2$. Berechne den relativen Fehler!
+$$ 1.25$$
+\end{frame}
+
+\begin{frame}{Satz von Gerschigorin}
+Sei $$ A := \begin{pmatrix}-1&2&2&0\\-3&7&2&-1\\-3&0&5&0\\-3&2&-2&-4\end{pmatrix}.$$ Welche der Folgenden Zahlen sind nach dem Satz von Gerschgorin potenzielle Eigenwerte?
+\begin{itemize}\item[$\Square$]7\item[$\Square$]8\item[$\Square$]11\item[$\Square$]2\end{itemize}
+\end{frame}
+\begin{frame}{Satz von Gerschigorin (Lösung)}
+Sei $$ A := \begin{pmatrix}-1&2&2&0\\-3&7&2&-1\\-3&0&5&0\\-3&2&-2&-4\end{pmatrix}.$$ Welche der Folgenden Zahlen sind nach dem Satz von Gerschgorin potenzielle Eigenwerte?
+\begin{itemize}\item[$\XBox$]7\item[$\XBox$]8\item[$\XBox$]11\item[$\XBox$]2\end{itemize}
+\end{frame}
+
+\begin{frame}{$\infty$-Norm}
+Sei $$ A := \begin{pmatrix}0&2&-3&-1\\0&-3&-1&4\\-5&5&-1&-5\\-3&-3&3&1\end{pmatrix}.$$ Berechne $\|A\|_\infty$!
+\end{frame}
+\begin{frame}{$\infty$-Norm (Lösung)}
+Sei $$ A := \begin{pmatrix}0&2&-3&-1\\0&-3&-1&4\\-5&5&-1&-5\\-3&-3&3&1\end{pmatrix}.$$ Berechne $\|A\|_\infty$!
+$$ 16$$
+\end{frame}
+
+\begin{frame}{$\infty$-Norm}
+Sei $$ A := \begin{pmatrix}-2&-3&3&0\\2&-1&-5&0\\-4&5&-5&3\\-3&-4&-2&-3\end{pmatrix}.$$ Berechne $\|A\|_\infty$!
+\end{frame}
+\begin{frame}{$\infty$-Norm (Lösung)}
+Sei $$ A := \begin{pmatrix}-2&-3&3&0\\2&-1&-5&0\\-4&5&-5&3\\-3&-4&-2&-3\end{pmatrix}.$$ Berechne $\|A\|_\infty$!
+$$ 17$$
+\end{frame}
+
+\begin{frame}{Fixpunktiteration}
+Gegeben seien die Funktion $$ f(x) = -5+4x+3x^2+5x^3$$ und der Startpunkt $ x_0 = -2$. Berechne den erste Iterationsschritt der Fixpunktiteration!
+\end{frame}
+\begin{frame}{Fixpunktiteration (Lösung)}
+Gegeben seien die Funktion $$ f(x) = -5+4x+3x^2+5x^3$$ und der Startpunkt $ x_0 = -2$. Berechne den erste Iterationsschritt der Fixpunktiteration!
+$$ -41$$
+\end{frame}
+
+\begin{frame}{Newtonverfahren}
+Gegeben seien die Funktion $$ f(x) = -3+3x-5x^2-1x^3$$ und der Startpunkt $ x_0 = -3$. Berechne den erste Iterationsschritt des Newtonverfahrens.
+\end{frame}
+\begin{frame}{Newtonverfahren (Lösung)}
+Gegeben seien die Funktion $$ f(x) = -3+3x-5x^2-1x^3$$ und der Startpunkt $ x_0 = -3$. Berechne den erste Iterationsschritt des Newtonverfahrens.
+$$ 2$$
+\end{frame}
+
+\begin{frame}{Trapezregel}
+Gegeben seien die Funktion $$ f(x) = -5+5x+2x^2+1x^3$$ auf dem Intervall [-3, -1]. Approximiere das Integral mittels der Trapezregel!
+\end{frame}
+\begin{frame}{Trapezregel (Lösung)}
+Gegeben seien die Funktion $$ f(x) = -5+5x+2x^2+1x^3$$ auf dem Intervall [-3, -1]. Approximiere das Integral mittels der Trapezregel!
+$$ -38$$
+\end{frame}
+
+\end{document}
